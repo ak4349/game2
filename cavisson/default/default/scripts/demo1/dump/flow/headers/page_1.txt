@@ -1,0 +1,156 @@
+--Request 
+GET http://blazedemo.com/
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302 Found
+Location: https://blazedemo.com/
+X-Cloud-Trace-Context: b54eb6d122c175b4eb556ac4a10a5065
+Date: Wed, 01 Sep 2021 08:15:09 GMT
+Content-Type: text/html
+Server: Google Frontend
+Content-Length: 0
+----
+--Request 
+GET https://blazedemo.com/
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+x-powered-by: PHP/7.3.17
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+content-encoding: gzip
+x-cloud-trace-context: cbdf40a1c16ff01cb428f754822e9eb7
+date: Wed, 01 Sep 2021 08:15:14 GMT
+server: Google Frontend
+content-length: 982
+----
+--Request 
+GET https://blazedemo.com/assets/bootstrap.min.js
+Host: blazedemo.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://blazedemo.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Wed, 13 May 2020 14:02:51 GMT
+etag: \"6ff7-5a588092358c0-gzip\"
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: application/javascript
+content-encoding: gzip
+x-cloud-trace-context: 77de98a45f1afc95d151038e64552b0c
+date: Wed, 01 Sep 2021 08:15:16 GMT
+server: Google Frontend
+cache-control: private
+content-length: 7611
+----
+--Request 
+GET https://blazedemo.com/assets/bootstrap-table.js
+Host: blazedemo.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://blazedemo.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Wed, 13 May 2020 14:02:51 GMT
+etag: \"9902-5a588092358c0-gzip\"
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: application/javascript
+content-encoding: gzip
+x-cloud-trace-context: 55c2ef7118fded3747bbb5fd69998737
+date: Wed, 01 Sep 2021 08:15:16 GMT
+server: Google Frontend
+cache-control: private
+content-length: 8241
+----
+--Request 
+GET https://blazedemo.com/assets/bootstrap.min.css
+Host: blazedemo.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://blazedemo.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Wed, 13 May 2020 14:02:51 GMT
+etag: \"1edfd-5a588092358c0-gzip\"
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/css
+content-encoding: gzip
+x-cloud-trace-context: 8fb9f89b0e7c4a839190ee463a609eb4
+date: Wed, 01 Sep 2021 08:15:16 GMT
+server: Google Frontend
+cache-control: private
+content-length: 20845
+----
+--Request 
+GET https://blazedemo.com/assets/bootstrap-table.css
+Host: blazedemo.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://blazedemo.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Wed, 13 May 2020 14:02:51 GMT
+etag: \"eb5-5a588092358c0-gzip\"
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/css
+content-encoding: gzip
+x-cloud-trace-context: bce8c717ec9906e066e416fa452cb7b0
+date: Wed, 01 Sep 2021 08:15:16 GMT
+server: Google Frontend
+cache-control: private
+content-length: 1008
+----
+

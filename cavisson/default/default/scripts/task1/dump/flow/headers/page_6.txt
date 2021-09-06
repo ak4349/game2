@@ -1,0 +1,30 @@
+--Request 
+POST https://update.googleapis.com/service/update2/json
+Host: update.googleapis.com
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+----
+ POSTDATA {"request":{"@os":"win","@updater":"chromium","acceptformat":"crx2,crx3","app":[{"appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","event":[{"download_time_ms":36343,"downloaded":5268,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"95.0.4631.3","previousversion":"95.0.4631.0","total":5268,"url":"http://storage.googleapis.com/update-delta/jamhcnnkihinmdlkakkaopbjbbcngflc/95.0.4631.3/95.0.4631.0/fa953840b6f2ad2811dd7728a16e5a0c8f0c44487721521bf133ca20182cea85.crxd"},{"diffresult":1,"eventresult":1,"eventtype":3,"nextfp":"1.59e0a41564ef0a6dca26dafae2f98260b0981a2af4d6cc0b6fb8f40eae506bca","nextversion":"95.0.4631.3","previousfp":"1.7ccb4b6b37912d706fd87cf896bfc35ead0f737ddf3ed39033bc5d45cfd521f9","previousversion":"95.0.4631.0"}],"version":"95.0.4631.3"}],"arch":"x64","dedup":"cr","hw":{"physmemory":8},"lang":"en-US","nacl_arch":"x86-64","os":{"arch":"x86_64","platform":"Windows","version":"10.0.18363.1734"},"prodversion":"90.0.4430.93","protocol":"3.1","requestid":"{86570e60-049e-4590-8151-7eb785b85fa5}","sessionid":"{e60baeac-f843-4e57-afe6-ce55f6ac72c9}","updaterversion":"90.0.4430.93"}}
+--Response 
+HTTP/1.1 200
+content-security-policy: script-src 'report-sample' 'nonce-WBEK52YTvq31XJiD2JJALw' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Sat, 04 Sep 2021 11:13:28 GMT
+content-type: application/json; charset=utf-8
+x-daynum: 5360
+x-daystart: 15208
+content-encoding: gzip
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+content-length: 172
+server: GSE
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"
+----
+

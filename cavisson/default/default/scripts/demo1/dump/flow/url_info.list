@@ -1,0 +1,17 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index|Main|0|http://blazedemo.com/|blazedemo.com/index|text/html|1|https://blazedemo.com/|blazedemo.com|/|./|302|0.001|0|0|GET|NA|NA|NA|NA|48.179|49.541|NA|NA|NA|NA|NA
+index|Inline|1|https://blazedemo.com/|blazedemo.com/index_2|text/html; charset=UTF-8|0|NA|blazedemo.com|/|./|200|0.005|0|2945|GET|NA|NA|NA|NA|49.593|54.663|NA|NA|NA|NA|NA
+index|Inline|2|https://blazedemo.com/assets/bootstrap.min.js|blazedemo.com/assets/bootstrap.min.js|application/javascript|0|NA|blazedemo.com|/assets/|./../|200|0.001|0|28663|GET|NA|NA|NA|NA|56.502|57.122|NA|NA|NA|NA|NA
+index|Inline|3|https://blazedemo.com/assets/bootstrap-table.js|blazedemo.com/assets/bootstrap-table.js|application/javascript|0|NA|blazedemo.com|/assets/|./../|200|0.001|0|39170|GET|NA|NA|NA|NA|56.505|57.154|NA|NA|NA|NA|NA
+index|Inline|4|https://blazedemo.com/assets/bootstrap.min.css|blazedemo.com/assets/bootstrap.min.css|text/css|0|NA|blazedemo.com|/assets/|./../|200|0.001|0|126461|GET|NA|NA|NA|NA|56.506|57.297|NA|NA|NA|NA|NA
+index|Inline|5|https://blazedemo.com/assets/bootstrap-table.css|blazedemo.com/assets/bootstrap-table.css|text/css|0|NA|blazedemo.com|/assets/|./../|200|0.001|0|3765|GET|NA|NA|NA|NA|56.509|57.153|NA|NA|NA|NA|NA
+reserve_php|Main|0|https://blazedemo.com/reserve.php|blazedemo.com/reserve.php|text/html; charset=UTF-8|0|NA|blazedemo.com|/|./|200|0.001|0|5520|POST|NA|NA|NA|NA|72.021|73.146|NA|NA|NA|NA|NA
+reserve_php|Inline|1|https://blazedemo.com/assets/bootstrap.min.css|blazedemo.com/assets/bootstrap.min.css_2|text/css|0|NA|blazedemo.com|/assets/|./../|200|0|0|126461|GET|NA|NA|NA|NA|73.257|73.263|NA|NA|NA|NA|NA
+reserve_php|Inline|2|https://blazedemo.com/assets/bootstrap-table.css|blazedemo.com/assets/bootstrap-table.css_2|text/css|0|NA|blazedemo.com|/assets/|./../|200|0|0|3765|GET|NA|NA|NA|NA|73.26|73.267|NA|NA|NA|NA|NA
+purchase_php|Main|0|https://blazedemo.com/purchase.php|blazedemo.com/purchase.php|text/html; charset=UTF-8|0|NA|blazedemo.com|/|./|200|0.001|0|4902|POST|NA|NA|NA|NA|77.16|78.276|NA|NA|NA|NA|NA
+json|Main|0|https://update.googleapis.com/service/update2/json?cup2key=10:301478020&cup2hreq=1762d29cf9e6c748137a6f447384d3b4a1e252bd183a62fbdab731458d64f339|update.googleapis.com/service/update2/json_cup2key=10_301478020_cup2hreq=1762d29cf9e6c748137a6f447384d3b4a1e252bd183a62fbdab731458d64f33|application/json; charset=utf-8|0|NA|update.googleapis.com|/service/update2/|./../../|200|0.001|0|8074|POST|NA|NA|NA|NA|87.233|88.596|NA|NA|NA|NA|NA
+json_2|Main|0|https://update.googleapis.com/service/update2/json|update.googleapis.com/service/update2/json|application/json; charset=utf-8|0|NA|update.googleapis.com|/service/update2/|./../../|200|0.001|0|217|POST|NA|NA|NA|NA|104.081|104.797|NA|NA|NA|NA|NA
+confirmation_php|Main|0|https://blazedemo.com/confirmation.php|blazedemo.com/confirmation.php|text/html; charset=UTF-8|0|NA|blazedemo.com|/|./|200|0.001|0|3967|POST|NA|NA|NA|NA|109.089|110.264|NA|NA|NA|NA|NA
+json_3|Main|0|https://update.googleapis.com/service/update2/json|update.googleapis.com/service/update2/json|application/json; charset=utf-8|0|NA|update.googleapis.com|/service/update2/|./../../|200|0.113|0|0|POST|NA|NA|NA|NA|0.0|112.521|NA|NA|NA|NA|NA

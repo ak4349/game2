@@ -1,0 +1,122 @@
+--Request 
+GET http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Host: 192.168.244.195:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://192.168.244.195:8080/tours/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-length: 0000002664
+Connection: Keep-Alive
+Content-type: text/html
+----
+--Request 
+GET http://192.168.244.195:8080/tours/Merc10-dev/images/banner_animated.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 16522
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/Merc10-dev/images/sun_swede.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 4125
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/Merc10-dev/images/flights.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 1519
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/Merc10-dev/images/home.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 1268
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/Merc10-dev/images/signoff.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 1260
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/images/banner_merctur.jpg
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 22548
+Content-Type: image/jpeg
+Connection: Keep-Alive
+----
+--Request 
+GET http://192.168.244.195:8080/tours/vep/images/velocigen.gif
+Host: 192.168.244.195:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.244.195:8080/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amit&password=123&login.x=34&login.y=10&JSFormSubmit=off
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 2018
+Content-Type: image/gif
+Connection: Keep-Alive
+----
+

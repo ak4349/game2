@@ -1,0 +1,30 @@
+--Request 
+POST https://blazedemo.com/confirmation.php
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Origin: https://blazedemo.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://blazedemo.com/purchase.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+ POSTDATA _token=&inputName=as&address=12w&city=as&state=as&zipCode=123&cardType=visa&creditCardNumber=1234&creditCardMonth=11&creditCardYear=2017&nameOnCard=as
+--Response 
+HTTP/1.1 200
+x-powered-by: PHP/7.3.17
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+content-encoding: gzip
+x-cloud-trace-context: b192d0e5d9955f461138373cd6236b18
+date: Wed, 01 Sep 2021 08:16:09 GMT
+server: Google Frontend
+content-length: 1079
+----
+

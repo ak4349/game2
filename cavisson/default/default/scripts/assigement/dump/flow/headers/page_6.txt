@@ -1,0 +1,30 @@
+--Request 
+POST https://update.googleapis.com/service/update2/json
+Host: update.googleapis.com
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+----
+ POSTDATA {"request":{"@os":"win","@updater":"chromium","acceptformat":"crx2,crx3","app":[{"appid":"jflookgnkcckhobaglndicnbbgbonegd","event":[{"download_time_ms":8083,"downloaded":4265,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"2688","previousversion":"2687","total":4265,"url":"http://storage.googleapis.com/update-delta/jflookgnkcckhobaglndicnbbgbonegd/2688/2687/ba7c36d722e79e3131856667cfc24a9551c57aeaba67b433d00463f40301508c.crxd"},{"diffresult":1,"eventresult":1,"eventtype":3,"nextfp":"1.6ff757439620e42df323b2471fff6db08165bc16c8be2e9f2718acdb4fcd420d","nextversion":"2688","previousfp":"1.87a7864f0923c4a98c227e49dff236f257e13f8e046b3fba6c6338ce6439f043","previousversion":"2687"}],"version":"2688"}],"arch":"x64","dedup":"cr","hw":{"physmemory":8},"lang":"en-US","nacl_arch":"x86-64","os":{"arch":"x86_64","platform":"Windows","version":"10.0.18363.1734"},"prodversion":"90.0.4430.93","protocol":"3.1","requestid":"{68cf8623-ccbe-493a-88f7-baf3377293b1}","sessionid":"{67c1bfe0-5cd7-4dad-b381-e7e91de0ba68}","updaterversion":"90.0.4430.93"}}
+--Response 
+HTTP/1.1 200
+content-security-policy: script-src 'report-sample' 'nonce-2fNjjjS9CfyPrg6NZ0qTzA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Fri, 03 Sep 2021 05:47:53 GMT
+content-type: application/json; charset=utf-8
+x-daynum: 5358
+x-daystart: 82073
+content-encoding: gzip
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+content-length: 170
+server: GSE
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"
+----
+

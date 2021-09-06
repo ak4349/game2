@@ -1,0 +1,40 @@
+--Request 
+POST https://blazedemo.com/purchase.php
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Origin: https://blazedemo.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://blazedemo.com/reserve.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+ POSTDATA [key: "flight"
+value: "12"
+, key: "price"
+value: "765.32"
+, key: "airline"
+value: "Virgin America"
+, key: "fromPort"
+value: "Paris"
+, key: "toPort"
+value: "London"
+]
+--Response 
+HTTP/1.1 200
+x-powered-by: PHP/7.3.17
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+content-encoding: gzip
+x-cloud-trace-context: b63f6c3f9524879e4f7f4394c51c5013
+date: Wed, 01 Sep 2021 08:15:37 GMT
+server: Google Frontend
+content-length: 1285
+----
+
